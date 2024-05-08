@@ -1,0 +1,147 @@
+.title {
+  text-align: center;
+  text-shadow: 1px 1px 1px #cdc1ab;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+  color: #cdc1ab;
+  line-height: 0.5rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #cdc1ab;
+  line-height: 0.5rem;
+}
+
+html,
+body {
+  margin: 20px 5px 20px 5px;
+  padding: 0;
+  background: #36c;
+  background: linear-gradient(
+        115deg,
+        transparent 75%,
+        rgba(255, 255, 255, 0.8) 75%
+      )
+      0 0,
+    linear-gradient(245deg, transparent 75%, rgba(255, 255, 255, 0.8) 75%) 0 0,
+    linear-gradient(115deg, transparent 75%, rgba(255, 255, 255, 0.8) 75%) 7px -15px,
+    linear-gradient(245deg, transparent 75%, rgba(255, 255, 255, 0.8) 75%) 7px -15px,
+    #36c;
+  background-size: 15px 30px;
+}
+
+.img-div {
+  width: 50%;
+  margin: auto;
+  padding: 1.5rem 4rem 1rem 4rem;
+  background-color: #a23173;
+  border: 2px solid #cdc1ab;
+  border-radius: 20%;
+  box-shadow: 0 0 0.1em 0.1em #a23173;
+}
+
+.image {
+  border: 3px solid #cdc1ab;
+  border-radius: 20%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px auto;
+  display: block;
+}
+
+.img-caption {
+  color: #cdc1ab;
+  font-family: "Lobster";
+  font-weight: 100;
+  font-size: 1.4rem;
+  background-color: #a23173;
+  margin-top: 0.5rem;
+  text-align: center;
+  border-radius: 35%;
+}
+
+.tribute-info {
+  width: 95%;
+  margin: auto;
+  background-color: #2c6290;
+  border: 3.5px solid #a23173;
+}
+
+.tribute-info ul {
+  color: #cdc1ab;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.number {
+  font-size: 2rem;
+  font-family: "Lobster";
+  border-bottom: 2px solid #cdc1ab;
+  border-bottom-width: 3px;
+  position: relative;
+  left: -12.5px;
+}
+
+footer {
+  margin: 10px auto;
+  width: 50%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #2c6290;
+  color: #cdc1ab;
+  border: 3.5px solid #a23173;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  .title {
+    font-size: 2rem;
+    line-height: 2em;
+  }
+  .img-caption {
+    font-size: 1.25rem;
+  }
+  .tribute-info ul {
+    font-size: 1rem;
+    position: relative;
+    left: -12.5px;
+  }
+  .number {
+    font-size: 1.5rem;
+    position: relative;
+    left: -4px;
+  }
+  footer {
+    width: 40%;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+  }
+  .img-caption {
+    font-size: 1rem;
+  }
+  .tribute-info ul {
+    font-size: 0.75rem;
+  }
+  .number {
+    font-size: 1rem;
+    position: relative;
+    left: -2px;
+  }
+}
